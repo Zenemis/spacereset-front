@@ -10,7 +10,6 @@ public class SwipeManager : MonoBehaviour
         Explore,
         Gyro,
         Profile,
-        Sliding
     }
 
     [Tooltip("Swipe menus")]
@@ -40,10 +39,14 @@ public class SwipeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Debug.Log(state);
         if (canInteract) 
         {
-            float swipe = DetectSwipe();
-            SwipePanels(swipe);
+            if (Input.touchCount > 0)
+            {
+                float swipe = DetectSwipe();
+                SwipePanels(swipe);
+            }
         } else {
             InterpolateToStatePosition();
         }
@@ -60,7 +63,12 @@ public class SwipeManager : MonoBehaviour
     private void SetStateToProfile()
     {
         state = State.Profile;
-        generalOffset = 1080f;
+        generalOffset = -1080f;
+        canInteract = false;
+        lerpTime = 0f;
+    }
+
+    private void ResetToSameState(){
         canInteract = false;
         lerpTime = 0f;
     }
@@ -84,9 +92,10 @@ public class SwipeManager : MonoBehaviour
                 case State.Explore :
                     break;
                 case State.Gyro :
-                    SetStateToProfile();
+                    ResetToSameState();
                     break;
                 case State.Profile :
+                    SetStateToGyro();
                     break;
             }
         } else if (swipe == Mathf.NegativeInfinity) {
@@ -94,16 +103,19 @@ public class SwipeManager : MonoBehaviour
                 case State.Explore :
                     break;
                 case State.Gyro :
+                    SetStateToProfile();
                     break;
                 case State.Profile :
-                    SetStateToGyro();
+                    ResetToSameState();
                     break;
             }
+        } else if (swipe == Mathf.Epsilon) {
+            ResetToSameState();
         } else {
             float amount = screenWidth*2*swipe/Screen.width;
             RectTransform panelRectTransform = myProfilePanel.GetComponent<RectTransform>();
-            panelRectTransform.offsetMin = new Vector2(generalOffset + amount, panelRectTransform.offsetMin.y);
-            panelRectTransform.offsetMax = new Vector2(generalOffset + amount, panelRectTransform.offsetMax.y);
+            panelRectTransform.offsetMin = new Vector2(generalOffset + screenWidth + amount, panelRectTransform.offsetMin.y);
+            panelRectTransform.offsetMax = new Vector2(generalOffset + screenWidth + amount, panelRectTransform.offsetMax.y);
         }
 
     }
@@ -121,38 +133,38 @@ public class SwipeManager : MonoBehaviour
                 return Mathf.NegativeInfinity;
             }
         }
-        return (endTouchPosition - startTouchPosition).x;
+        return Mathf.Epsilon;
     }
 
     private float DetectSwipe()
     {
-        if (Input.touchCount > 0)
+        Touch touch = Input.GetTouch(0);
+
+        switch (touch.phase)
         {
-            Touch touch = Input.GetTouch(0);
+            case TouchPhase.Began:
+                startTouchPosition = touch.position;
+                isSwiping = true;
+                return 0;
 
-            switch (touch.phase)
-            {
-                case TouchPhase.Began:
-                    startTouchPosition = touch.position;
-                    isSwiping = true;
-                    return 0;
+            case TouchPhase.Stationary:
+                endTouchPosition = touch.position;
+                return (endTouchPosition - startTouchPosition).x;
 
-                case TouchPhase.Moved:
-                    endTouchPosition = touch.position;
-                    return (endTouchPosition - startTouchPosition).x;
+            case TouchPhase.Moved:
+                endTouchPosition = touch.position;
+                return (endTouchPosition - startTouchPosition).x;
 
-                case TouchPhase.Ended:
-                    if (isSwiping)
-                    {
-                        isSwiping = false;
-                        return ComputeSwipe();
-                    }
-                    return (endTouchPosition - startTouchPosition).x;
-                
-                default :
-                    return (endTouchPosition - startTouchPosition).x;
-            }
+            case TouchPhase.Ended:
+                if (isSwiping)
+                {
+                    isSwiping = false;
+                    return ComputeSwipe();
+                }
+                return (endTouchPosition - startTouchPosition).x;
+            
+            default :
+                return (endTouchPosition - startTouchPosition).x;
         }
-        return 0;
     }
 }
