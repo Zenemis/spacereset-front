@@ -14,16 +14,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
-    x: 0
-    y: 42.666668
+    x: -143.33334
+    y: 138.66667
     width: 1280
     height: 629.3334
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
-  m_Maximized: 1
+  m_Maximized: 0
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -44,11 +44,11 @@ MonoBehaviour:
     x: 0
     y: 30
     width: 1280
-    height: 579.3333
-  m_MinSize: {x: 503, y: 271}
-  m_MaxSize: {x: 16192, y: 12117}
+    height: 579.3334
+  m_MinSize: {x: 300, y: 100}
+  m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 229
+  controlID: 39
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -59,22 +59,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
+  m_Name: InspectorWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 978
+    x: 978.6667
     y: 0
-    width: 302
-    height: 579.3333
+    width: 301.3333
+    height: 579.3334
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 13}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 13}
+  - {fileID: 14}
+  - {fileID: 12}
   m_Selected: 0
-  m_LastSelected: 0
+  m_LastSelected: 1
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -93,12 +94,12 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 242
-    height: 343.33334
+    height: 342.66666
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 14}
+  m_ActualView: {fileID: 15}
   m_Panes:
-  - {fileID: 14}
+  - {fileID: 15}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &5
@@ -111,23 +112,23 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ConsoleWindow
+  m_Name: ProjectBrowser
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 343.33334
-    width: 978
-    height: 235.99997
-  m_MinSize: {x: 101, y: 121}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+    y: 342.66666
+    width: 978.6667
+    height: 236.66672
+  m_MinSize: {x: 231, y: 271}
+  m_MaxSize: {x: 10001, y: 10021}
+  m_ActualView: {fileID: 13}
   m_Panes:
-  - {fileID: 12}
-  - {fileID: 17}
-  m_Selected: 1
-  m_LastSelected: 0
+  - {fileID: 13}
+  - {fileID: 18}
+  m_Selected: 0
+  m_LastSelected: 1
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -149,7 +150,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 1280
-    height: 629.3333
+    height: 629.3334
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
@@ -177,7 +178,7 @@ MonoBehaviour:
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
-  m_LastLoadedLayoutName: Default
+  m_LastLoadedLayoutName: 
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -194,7 +195,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 609.3333
+    y: 609.3334
     width: 1280
     height: 20
   m_MinSize: {x: 0, y: 0}
@@ -218,12 +219,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 978
-    height: 579.3333
-  m_MinSize: {x: 403, y: 271}
-  m_MaxSize: {x: 8096, y: 12117}
+    width: 978.6667
+    height: 579.3334
+  m_MinSize: {x: 200, y: 100}
+  m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 171
+  controlID: 40
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -243,12 +244,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 978
-    height: 343.33334
-  m_MinSize: {x: 403, y: 221}
-  m_MaxSize: {x: 8003, y: 4021}
+    width: 978.6667
+    height: 342.66666
+  m_MinSize: {x: 200, y: 50}
+  m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 172
+  controlID: 41
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -266,17 +267,2804 @@ MonoBehaviour:
     serializedVersion: 2
     x: 242
     y: 0
-    width: 736
-    height: 343.33334
+    width: 736.6667
+    height: 342.66666
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 15}
+  m_ActualView: {fileID: 16}
   m_Panes:
-  - {fileID: 15}
   - {fileID: 16}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
+MonoBehaviour:
+  m_ObjectHideFlags: 52
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ffb9ccd5681bd841ae77e9e5571f770, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
+  m_TitleContent:
+    m_Text: Git for Unity
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  m_Pos:
+    serializedVersion: 2
+    x: 978
+    y: 72.66667
+    width: 301
+    height: 558.3333
+  m_SerializedDataModeController:
+    m_DataMode: 0
+    m_PreferredDataMode: 0
+    m_SupportedDataModes: 
+    isAutomatic: 1
+  m_ViewDataDictionary: {fileID: 0}
+  m_OverlayCanvas:
+    m_LastAppliedPresetName: Default
+    m_SaveData: []
+    m_OverlaysVisible: 1
+  progressMessageClearTime: -1
+  notificationClearTime: -1
+  timeSinceLastRotation: -1
+  currentBranchAndRemoteHasUpdate: 0
+  currentTrackingStatusHasUpdate: 0
+  currentStatusEntriesHasUpdate: 1
+  repositoryProgressHasUpdate: 1
+  appManagerProgressHasUpdate: 1
+  changeTab: 3
+  activeTab: 3
+  initProjectView:
+    hasCompletedInitialCheck: 0
+    isUserDataPresent: 0
+    lastCheckUserChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 8
+  branchesView:
+    treeLocals:
+      IsRemote: 0
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Local branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    treeRemotes:
+      IsRemote: 1
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: Remote branches
+      pathSeparator: /
+      displayRootNode: 1
+      isSelectable: 1
+      isCheckable: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+    mode: 0
+    newBranchName: 
+    scroll: {x: 0, y: 0}
+    disableDelete: 0
+    disableCreate: 0
+    lastLocalAndRemoteBranchListChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastCurrentBranchAndRemoteChange:
+      updatedTimeString: 
+      cacheType: 0
+    currentBranch:
+      name: 
+      tracking: 
+    currentRemote:
+      name: 
+      url: 
+      login: 
+      user: 
+      host: 
+      function: 0
+      token: 
+    localBranches: []
+    remoteBranches: []
+  changesView:
+    currentBranchHasUpdate: 1
+    currentStatusEntriesHasUpdate: 1
+    currentLocksHasUpdate: 1
+    commitBody: 
+    commitMessage: 
+    currentBranch: master
+    treeScroll: {x: 0, y: 0}
+    treeChanges:
+      assets:
+        keys:
+        - 00000000000000001000000000000000
+        - f95df483d3ffdab41bd8b9206943eabd
+        - c850ee8c3b14cc8459e7e186857cf567
+        - 94c547e3d25e65147b3a9a1bc8e30521
+        - 4727b8e9e4338e5429eeb43ed576b542
+        - 00000000000000004000000000000000
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          label: SampleScene.unity
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scenes\SampleScene.unity
+            fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+            projectPath: Assets\Scenes\SampleScene.unity
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts\SwipeManager.cs
+          label: SwipeManager.cs
+          level: 2
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: Assets\Scripts\SwipeManager.cs
+            fullPath: D:\Front Appli\Assets\Scripts\SwipeManager.cs
+            projectPath: Assets\Scripts\SwipeManager.cs
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+        - path: ProjectSettings\ProjectSettings.asset
+          label: ProjectSettings.asset
+          level: 1
+          isFolder: 0
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: ProjectSettings\ProjectSettings.asset
+            fullPath: D:\Front Appli\ProjectSettings\ProjectSettings.asset
+            projectPath: ProjectSettings\ProjectSettings.asset
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 3
+      folders:
+        keys:
+        - Assets
+        - Assets\Scenes
+        - Assets\Scripts
+        - ProjectSettings
+        - UserSettings
+        - UserSettings\Layouts
+        values:
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scenes
+          label: Scenes
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Scripts
+          label: Scripts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 1
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: \
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 1
+      isUsingGlobalSelection: 1
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes
+        label: Scenes
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        label: SampleScene.unity
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scenes\SampleScene.unity
+          fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: Assets\Scripts
+        label: Scripts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Scripts\SwipeManager.cs
+        label: SwipeManager.cs
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Scripts\SwipeManager.cs
+          fullPath: D:\Front Appli\Assets\Scripts\SwipeManager.cs
+          projectPath: Assets\Scripts\SwipeManager.cs
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: ProjectSettings\TimelineSettings.asset
+        label: TimelineSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\TimelineSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\TimelineSettings.asset
+          projectPath: ProjectSettings\TimelineSettings.asset
+          originalPath: 
+          indexStatus: 1
+          workTreeStatus: 1
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        label: EditorUserSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\EditorUserSettings.asset
+          fullPath: D:\Front Appli\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        label: default-2022.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: D:\Front Appli\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 3
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    gitStatusEntries:
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scripts\SwipeManager.cs
+      fullPath: D:\Front Appli\Assets\Scripts\SwipeManager.cs
+      projectPath: Assets\Scripts\SwipeManager.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\ProjectSettings.asset
+      fullPath: D:\Front Appli\ProjectSettings\ProjectSettings.asset
+      projectPath: ProjectSettings\ProjectSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: ProjectSettings\TimelineSettings.asset
+      fullPath: D:\Front Appli\ProjectSettings\TimelineSettings.asset
+      projectPath: ProjectSettings\TimelineSettings.asset
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\EditorUserSettings.asset
+      fullPath: D:\Front Appli\UserSettings\EditorUserSettings.asset
+      projectPath: UserSettings\EditorUserSettings.asset
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: D:\Front Appli\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    changedFilesText: 6 changed files
+    lastCurrentBranchChangedEvent:
+      updatedTimeString: 2023-09-25T15:10:45.693+02:00
+      cacheType: 1
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 2023-09-25T15:10:46.085+02:00
+      cacheType: 6
+    lastLocksChangedEvent:
+      updatedTimeString: 2023-09-25T15:10:47.075+02:00
+      cacheType: 7
+  historyView:
+    currentLogHasUpdate: 0
+    currentTrackingStatusHasUpdate: 0
+    logEntries:
+    - commitID: 2b28183ed8bc9302e18f8c9c7db8ec102d6f9289
+      mergeA: 
+      mergeB: 
+      authorName: Simon DUCAMP
+      authorEmail: ducampsimon@outlook.fr
+      commitEmail: ducampsimon@outlook.fr
+      commitName: Simon DUCAMP
+      summary: 'feat: swipe now functional'
+      description: Bug if swipe too fast
+      timeString: 2023-09-24T14:29:43.000+02:00
+      commitTimeString: 2023-09-24T14:29:43.000+02:00
+      changes:
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\SwipeManager.cs
+        fullPath: D:\Front Appli\Assets\Scripts\SwipeManager.cs
+        projectPath: Assets\Scripts\SwipeManager.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 397396a043d346aa5a7f4cbc4672f1f435c8ca81
+      mergeA: 
+      mergeB: 
+      authorName: Simon DUCAMP
+      authorEmail: ducampsimon@outlook.fr
+      commitEmail: ducampsimon@outlook.fr
+      commitName: Simon DUCAMP
+      summary: 'draft: first attempt at swiping'
+      description: 
+      timeString: 2023-09-23T20:21:22.000+02:00
+      commitTimeString: 2023-09-23T20:21:22.000+02:00
+      changes:
+      - path: Assets\FrontAssets.meta
+        fullPath: D:\Front Appli\Assets\FrontAssets.meta
+        projectPath: Assets\FrontAssets.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\FrontAssets\menuButton.png
+        fullPath: D:\Front Appli\Assets\FrontAssets\menuButton.png
+        projectPath: Assets\FrontAssets\menuButton.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\FrontAssets\menuButton.png.meta
+        fullPath: D:\Front Appli\Assets\FrontAssets\menuButton.png.meta
+        projectPath: Assets\FrontAssets\menuButton.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts.meta
+        fullPath: D:\Front Appli\Assets\Scripts.meta
+        projectPath: Assets\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\SwipeManager.cs
+        fullPath: D:\Front Appli\Assets\Scripts\SwipeManager.cs
+        projectPath: Assets\Scripts\SwipeManager.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scripts\SwipeManager.cs.meta
+        fullPath: D:\Front Appli\Assets\Scripts\SwipeManager.cs.meta
+        projectPath: Assets\Scripts\SwipeManager.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro.meta
+        projectPath: Assets\TextMesh Pro.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Documentation.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Documentation.meta
+        projectPath: Assets\TextMesh Pro\Documentation.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Documentation\TextMesh Pro User
+          Guide 2016.pdf
+        projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Documentation\TextMesh Pro User
+          Guide 2016.pdf.meta
+        projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Fonts.meta
+        projectPath: Assets\TextMesh Pro\Fonts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+        projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+        projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+        projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+        projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources.meta
+        projectPath: Assets\TextMesh Pro\Resources.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Drop Shadow.mat
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Drop Shadow.mat
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Drop Shadow.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Drop Shadow.mat.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Drop Shadow.mat.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Drop Shadow.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Fallback.asset
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Fallback.asset
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Fallback.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Fallback.asset.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Fallback.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Fallback.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Outline.mat
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Outline.mat
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Outline.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+          - Outline.mat.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Outline.mat.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF - Outline.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF.asset
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+          SDF.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\LineBreaking Following
+          Characters.txt
+        projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\LineBreaking Following
+          Characters.txt.meta
+        projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\LineBreaking Leading
+          Characters.txt
+        projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\LineBreaking Leading
+          Characters.txt.meta
+        projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Sprite Assets.meta
+        projectPath: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+        projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Style Sheets.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Style Sheets.meta
+        projectPath: Assets\TextMesh Pro\Resources\Style Sheets.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Style Sheets\Default
+          Style Sheet.asset
+        projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Style Sheets\Default
+          Style Sheet.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\TMP Settings.asset
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\TMP Settings.asset
+        projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+        projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders.meta
+        projectPath: Assets\TextMesh Pro\Shaders.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro.cginc
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro.cginc
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+        projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites.meta
+        projectPath: Assets\TextMesh Pro\Sprites.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne.json
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites\EmojiOne.json
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne.png
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites\EmojiOne.png
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+        fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+        projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\SceneTemplateSettings.json
+        fullPath: D:\Front Appli\ProjectSettings\SceneTemplateSettings.json
+        projectPath: ProjectSettings\SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: D:\Front Appli\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: c77a70917f7d29488b1abce337a8fdb23607e70a
+      mergeA: 
+      mergeB: 
+      authorName: Simon DUCAMP
+      authorEmail: ducampsimon@outlook.fr
+      commitEmail: ducampsimon@outlook.fr
+      commitName: Simon DUCAMP
+      summary: Linking commit
+      description: 
+      timeString: 2023-09-23T12:23:24.000+02:00
+      commitTimeString: 2023-09-23T12:23:24.000+02:00
+      changes:
+      - path: .vscode\settings.json
+        fullPath: D:\Front Appli\.vscode\settings.json
+        projectPath: .vscode\settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Adaptive Performance.meta
+        fullPath: D:\Front Appli\Assets\Adaptive Performance.meta
+        projectPath: Assets\Adaptive Performance.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Adaptive Performance\Settings.meta
+        fullPath: D:\Front Appli\Assets\Adaptive Performance\Settings.meta
+        projectPath: Assets\Adaptive Performance\Settings.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Adaptive Performance\Settings\Simulator Provider Settings.asset
+        fullPath: D:\Front Appli\Assets\Adaptive Performance\Settings\Simulator Provider
+          Settings.asset
+        projectPath: Assets\Adaptive Performance\Settings\Simulator Provider Settings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Adaptive Performance\Settings\Simulator Provider Settings.asset.meta
+        fullPath: D:\Front Appli\Assets\Adaptive Performance\Settings\Simulator Provider
+          Settings.asset.meta
+        projectPath: Assets\Adaptive Performance\Settings\Simulator Provider Settings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Editor.meta
+        fullPath: D:\Front Appli\Assets\Editor.meta
+        projectPath: Assets\Editor.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Editor\com.unity.mobile.notifications.meta
+        fullPath: D:\Front Appli\Assets\Editor\com.unity.mobile.notifications.meta
+        projectPath: Assets\Editor\com.unity.mobile.notifications.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset
+        fullPath: D:\Front Appli\Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset
+        projectPath: Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset.meta
+        fullPath: D:\Front Appli\Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset.meta
+        projectPath: Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Readme.asset
+        fullPath: D:\Front Appli\Assets\Readme.asset
+        projectPath: Assets\Readme.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Readme.asset.meta
+        fullPath: D:\Front Appli\Assets\Readme.asset.meta
+        projectPath: Assets\Readme.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes.meta
+        fullPath: D:\Front Appli\Assets\Scenes.meta
+        projectPath: Assets\Scenes.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity.meta
+        fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity.meta
+        projectPath: Assets\Scenes\SampleScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo.meta
+        fullPath: D:\Front Appli\Assets\TutorialInfo.meta
+        projectPath: Assets\TutorialInfo.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons.meta
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Icons.meta
+        projectPath: Assets\TutorialInfo\Icons.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\Help_Icon.png
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Icons\Help_Icon.png
+        projectPath: Assets\TutorialInfo\Icons\Help_Icon.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Icons\Help_Icon.png.meta
+        projectPath: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\Mobile 3D.png
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Icons\Mobile 3D.png
+        projectPath: Assets\TutorialInfo\Icons\Mobile 3D.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\Mobile 3D.png.meta
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Icons\Mobile 3D.png.meta
+        projectPath: Assets\TutorialInfo\Icons\Mobile 3D.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Layout.wlt
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Layout.wlt
+        projectPath: Assets\TutorialInfo\Layout.wlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Layout.wlt.meta
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Layout.wlt.meta
+        projectPath: Assets\TutorialInfo\Layout.wlt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts.meta
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Scripts.meta
+        projectPath: Assets\TutorialInfo\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor.meta
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Scripts\Editor.meta
+        projectPath: Assets\TutorialInfo\Scripts\Editor.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Readme.cs
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Scripts\Readme.cs
+        projectPath: Assets\TutorialInfo\Scripts\Readme.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
+        fullPath: D:\Front Appli\Assets\TutorialInfo\Scripts\Readme.cs.meta
+        projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: D:\Front Appli\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: D:\Front Appli\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        fullPath: D:\Front Appli\ProjectSettings\AudioManager.asset
+        projectPath: ProjectSettings\AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        fullPath: D:\Front Appli\ProjectSettings\ClusterInputManager.asset
+        projectPath: ProjectSettings\ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        fullPath: D:\Front Appli\ProjectSettings\DynamicsManager.asset
+        projectPath: ProjectSettings\DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: D:\Front Appli\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\MemorySettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\MemorySettings.asset
+        projectPath: ProjectSettings\MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        fullPath: D:\Front Appli\ProjectSettings\NavMeshAreas.asset
+        projectPath: ProjectSettings\NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NotificationsSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\NotificationsSettings.asset
+        projectPath: ProjectSettings\NotificationsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\PackageManagerSettings.asset
+        projectPath: ProjectSettings\PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: D:\Front Appli\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: D:\Front Appli\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: D:\Front Appli\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: D:\Front Appli\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: D:\Front Appli\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VersionControlSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\VersionControlSettings.asset
+        projectPath: ProjectSettings\VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\XRSettings.asset
+        projectPath: ProjectSettings\XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\AndroidLogcatSettings.asset
+        fullPath: D:\Front Appli\UserSettings\AndroidLogcatSettings.asset
+        projectPath: UserSettings\AndroidLogcatSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: D:\Front Appli\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: D:\Front Appli\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.index
+        fullPath: D:\Front Appli\UserSettings\Search.index
+        projectPath: UserSettings\Search.index
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: D:\Front Appli\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: 729ec5bd2762fe56388bbfad3edae375901e4625
+      mergeA: 
+      mergeB: 
+      authorName: Simon DUCAMP
+      authorEmail: ducampsimon@outlook.fr
+      commitEmail: ducampsimon@outlook.fr
+      commitName: Simon DUCAMP
+      summary: Initial commit
+      description: 
+      timeString: 2023-09-23T12:22:16.000+02:00
+      commitTimeString: 2023-09-23T12:22:16.000+02:00
+      changes:
+      - path: .gitattributes
+        fullPath: D:\Front Appli\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: D:\Front Appli\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: D:\Front Appli\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 2b28183ed8bc9302e18f8c9c7db8ec102d6f9289
+        mergeA: 
+        mergeB: 
+        authorName: Simon DUCAMP
+        authorEmail: ducampsimon@outlook.fr
+        commitEmail: ducampsimon@outlook.fr
+        commitName: Simon DUCAMP
+        summary: 'feat: swipe now functional'
+        description: Bug if swipe too fast
+        timeString: 2023-09-24T14:29:43.000+02:00
+        commitTimeString: 2023-09-24T14:29:43.000+02:00
+        changes:
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\SwipeManager.cs
+          fullPath: D:\Front Appli\Assets\Scripts\SwipeManager.cs
+          projectPath: Assets\Scripts\SwipeManager.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 397396a043d346aa5a7f4cbc4672f1f435c8ca81
+        mergeA: 
+        mergeB: 
+        authorName: Simon DUCAMP
+        authorEmail: ducampsimon@outlook.fr
+        commitEmail: ducampsimon@outlook.fr
+        commitName: Simon DUCAMP
+        summary: 'draft: first attempt at swiping'
+        description: 
+        timeString: 2023-09-23T20:21:22.000+02:00
+        commitTimeString: 2023-09-23T20:21:22.000+02:00
+        changes:
+        - path: Assets\FrontAssets.meta
+          fullPath: D:\Front Appli\Assets\FrontAssets.meta
+          projectPath: Assets\FrontAssets.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\FrontAssets\menuButton.png
+          fullPath: D:\Front Appli\Assets\FrontAssets\menuButton.png
+          projectPath: Assets\FrontAssets\menuButton.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\FrontAssets\menuButton.png.meta
+          fullPath: D:\Front Appli\Assets\FrontAssets\menuButton.png.meta
+          projectPath: Assets\FrontAssets\menuButton.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts.meta
+          fullPath: D:\Front Appli\Assets\Scripts.meta
+          projectPath: Assets\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\SwipeManager.cs
+          fullPath: D:\Front Appli\Assets\Scripts\SwipeManager.cs
+          projectPath: Assets\Scripts\SwipeManager.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scripts\SwipeManager.cs.meta
+          fullPath: D:\Front Appli\Assets\Scripts\SwipeManager.cs.meta
+          projectPath: Assets\Scripts\SwipeManager.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro.meta
+          projectPath: Assets\TextMesh Pro.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Documentation.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Documentation.meta
+          projectPath: Assets\TextMesh Pro\Documentation.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Documentation\TextMesh Pro
+            User Guide 2016.pdf
+          projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide
+            2016.pdf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide 2016.pdf.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Documentation\TextMesh Pro
+            User Guide 2016.pdf.meta
+          projectPath: Assets\TextMesh Pro\Documentation\TextMesh Pro User Guide
+            2016.pdf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Fonts.meta
+          projectPath: Assets\TextMesh Pro\Fonts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+          projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+          projectPath: Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+          projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+          projectPath: Assets\TextMesh Pro\Fonts\LiberationSans.ttf.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources.meta
+          projectPath: Assets\TextMesh Pro\Resources.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Drop Shadow.mat
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Drop Shadow.mat
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Drop Shadow.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Drop Shadow.mat.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Drop Shadow.mat.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Drop Shadow.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Fallback.asset
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Fallback.asset
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Fallback.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Fallback.asset.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Fallback.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Fallback.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Outline.mat
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Outline.mat
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Outline.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF
+            - Outline.mat.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Outline.mat.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF - Outline.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF.asset
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans SDF.asset.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Fonts & Materials\LiberationSans
+            SDF.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\LineBreaking Following
+            Characters.txt
+          projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\LineBreaking Following
+            Characters.txt.meta
+          projectPath: Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\LineBreaking Leading
+            Characters.txt
+          projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\LineBreaking Leading
+            Characters.txt.meta
+          projectPath: Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Sprite Assets.meta
+          projectPath: Assets\TextMesh Pro\Resources\Sprite Assets.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+          projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Sprite Assets\EmojiOne.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Style Sheets.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Style Sheets.meta
+          projectPath: Assets\TextMesh Pro\Resources\Style Sheets.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Style Sheets\Default
+            Style Sheet.asset
+          projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\Style Sheets\Default
+            Style Sheet.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\Style Sheets\Default Style Sheet.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\TMP Settings.asset
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\TMP Settings.asset
+          projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+          projectPath: Assets\TextMesh Pro\Resources\TMP Settings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders.meta
+          projectPath: Assets\TextMesh Pro\Shaders.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_SDF.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMP_Sprite.shader.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro.cginc
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro.cginc
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+          projectPath: Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites.meta
+          projectPath: Assets\TextMesh Pro\Sprites.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne.json
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites\EmojiOne.json
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.json.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne.png
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites\EmojiOne.png
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+          fullPath: D:\Front Appli\Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+          projectPath: Assets\TextMesh Pro\Sprites\EmojiOne.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\SceneTemplateSettings.json
+          fullPath: D:\Front Appli\ProjectSettings\SceneTemplateSettings.json
+          projectPath: ProjectSettings\SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: D:\Front Appli\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: c77a70917f7d29488b1abce337a8fdb23607e70a
+        mergeA: 
+        mergeB: 
+        authorName: Simon DUCAMP
+        authorEmail: ducampsimon@outlook.fr
+        commitEmail: ducampsimon@outlook.fr
+        commitName: Simon DUCAMP
+        summary: Linking commit
+        description: 
+        timeString: 2023-09-23T12:23:24.000+02:00
+        commitTimeString: 2023-09-23T12:23:24.000+02:00
+        changes:
+        - path: .vscode\settings.json
+          fullPath: D:\Front Appli\.vscode\settings.json
+          projectPath: .vscode\settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Adaptive Performance.meta
+          fullPath: D:\Front Appli\Assets\Adaptive Performance.meta
+          projectPath: Assets\Adaptive Performance.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Adaptive Performance\Settings.meta
+          fullPath: D:\Front Appli\Assets\Adaptive Performance\Settings.meta
+          projectPath: Assets\Adaptive Performance\Settings.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Adaptive Performance\Settings\Simulator Provider Settings.asset
+          fullPath: D:\Front Appli\Assets\Adaptive Performance\Settings\Simulator
+            Provider Settings.asset
+          projectPath: Assets\Adaptive Performance\Settings\Simulator Provider Settings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Adaptive Performance\Settings\Simulator Provider Settings.asset.meta
+          fullPath: D:\Front Appli\Assets\Adaptive Performance\Settings\Simulator
+            Provider Settings.asset.meta
+          projectPath: Assets\Adaptive Performance\Settings\Simulator Provider Settings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Editor.meta
+          fullPath: D:\Front Appli\Assets\Editor.meta
+          projectPath: Assets\Editor.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Editor\com.unity.mobile.notifications.meta
+          fullPath: D:\Front Appli\Assets\Editor\com.unity.mobile.notifications.meta
+          projectPath: Assets\Editor\com.unity.mobile.notifications.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset
+          fullPath: D:\Front Appli\Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset
+          projectPath: Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset.meta
+          fullPath: D:\Front Appli\Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset.meta
+          projectPath: Assets\Editor\com.unity.mobile.notifications\NotificationSettings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Readme.asset
+          fullPath: D:\Front Appli\Assets\Readme.asset
+          projectPath: Assets\Readme.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Readme.asset.meta
+          fullPath: D:\Front Appli\Assets\Readme.asset.meta
+          projectPath: Assets\Readme.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes.meta
+          fullPath: D:\Front Appli\Assets\Scenes.meta
+          projectPath: Assets\Scenes.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity.meta
+          fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity.meta
+          projectPath: Assets\Scenes\SampleScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo.meta
+          fullPath: D:\Front Appli\Assets\TutorialInfo.meta
+          projectPath: Assets\TutorialInfo.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons.meta
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Icons.meta
+          projectPath: Assets\TutorialInfo\Icons.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons\Help_Icon.png
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Icons\Help_Icon.png
+          projectPath: Assets\TutorialInfo\Icons\Help_Icon.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Icons\Help_Icon.png.meta
+          projectPath: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons\Mobile 3D.png
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Icons\Mobile 3D.png
+          projectPath: Assets\TutorialInfo\Icons\Mobile 3D.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons\Mobile 3D.png.meta
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Icons\Mobile 3D.png.meta
+          projectPath: Assets\TutorialInfo\Icons\Mobile 3D.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Layout.wlt
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Layout.wlt
+          projectPath: Assets\TutorialInfo\Layout.wlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Layout.wlt.meta
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Layout.wlt.meta
+          projectPath: Assets\TutorialInfo\Layout.wlt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts.meta
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Scripts.meta
+          projectPath: Assets\TutorialInfo\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Editor.meta
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Scripts\Editor.meta
+          projectPath: Assets\TutorialInfo\Scripts\Editor.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Readme.cs
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Scripts\Readme.cs
+          projectPath: Assets\TutorialInfo\Scripts\Readme.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
+          fullPath: D:\Front Appli\Assets\TutorialInfo\Scripts\Readme.cs.meta
+          projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: D:\Front Appli\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: D:\Front Appli\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\AudioManager.asset
+          fullPath: D:\Front Appli\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ClusterInputManager.asset
+          fullPath: D:\Front Appli\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\DynamicsManager.asset
+          fullPath: D:\Front Appli\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: D:\Front Appli\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\MemorySettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\MemorySettings.asset
+          projectPath: ProjectSettings\MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NavMeshAreas.asset
+          fullPath: D:\Front Appli\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NotificationsSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\NotificationsSettings.asset
+          projectPath: ProjectSettings\NotificationsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PresetManager.asset
+          fullPath: D:\Front Appli\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: D:\Front Appli\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: D:\Front Appli\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: D:\Front Appli\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VFXManager.asset
+          fullPath: D:\Front Appli\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VersionControlSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\VersionControlSettings.asset
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\XRSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\AndroidLogcatSettings.asset
+          fullPath: D:\Front Appli\UserSettings\AndroidLogcatSettings.asset
+          projectPath: UserSettings\AndroidLogcatSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: D:\Front Appli\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: D:\Front Appli\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.index
+          fullPath: D:\Front Appli\UserSettings\Search.index
+          projectPath: UserSettings\Search.index
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.settings
+          fullPath: D:\Front Appli\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: 729ec5bd2762fe56388bbfad3edae375901e4625
+        mergeA: 
+        mergeB: 
+        authorName: Simon DUCAMP
+        authorEmail: ducampsimon@outlook.fr
+        commitEmail: ducampsimon@outlook.fr
+        commitName: Simon DUCAMP
+        summary: Initial commit
+        description: 
+        timeString: 2023-09-23T12:22:16.000+02:00
+        commitTimeString: 2023-09-23T12:22:16.000+02:00
+        changes:
+        - path: .gitattributes
+          fullPath: D:\Front Appli\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: D:\Front Appli\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: D:\Front Appli\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: -1
+    selectedEntry:
+      commitID: 
+      mergeA: 
+      mergeB: 
+      authorName: 
+      authorEmail: 
+      commitEmail: 
+      commitName: 
+      summary: 
+      description: 
+      timeString: 0001-01-01T00:00:00.000+00:00
+      commitTimeString: 0001-01-01T00:00:00.000+00:00
+      changes: []
+    treeChanges:
+      assets:
+        keys: []
+        values: []
+      folders:
+        keys: []
+        values: []
+      checkedFileNodes:
+        keys: []
+        values: []
+      title: 
+      pathSeparator: /
+      displayRootNode: 0
+      isSelectable: 1
+      isCheckable: 0
+      isUsingGlobalSelection: 0
+      nodes: []
+      selectedNode:
+        path: 
+        label: 
+        level: 0
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+    detailsScroll: {x: 0, y: 0}
+  settingsView:
+    gitPathView:
+      gitPath: 
+      gitLfsPath: 
+      errorMessage: 
+      resetToBundled: 0
+      resetToSystem: 0
+      changingManually: 0
+    hasRemote: 0
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    newRepositoryRemoteUrl: 
+    repositoryRemoteName: 
+    repositoryRemoteUrl: 
+    scroll: {x: 0, y: 0}
+    userSettingsView:
+      gitName: 
+      gitEmail: 
+      newGitName: 
+      newGitEmail: 
+      needsSaving: 0
+      lastCheckUserChangedEvent:
+        updatedTimeString: 
+        cacheType: 0
+    webTimeout: 0
+    gitTimeout: 0
+  locksView:
+    currentRemoteHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
+    keychainHasUpdate: 0
+    locksControl:
+      scroll: {x: 0, y: 0}
+      gitLockEntries: []
+      assets:
+        keys: []
+        values: []
+      gitStatusDictionary:
+        keys: []
+        values: []
+      selectedEntry:
+        gitLock:
+          id: 
+          path: 
+          owner:
+            name: 
+            email: 
+          lockedAtString: 
+        gitFileStatus: 0
+        lockedAt: 
+    lastCurrentRemoteChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastLocksChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lastStatusEntriesChangedEvent:
+      updatedTimeString: 
+      cacheType: 0
+    lockedFiles: []
+    gitStatusEntries: []
+    currentUsername: 
+    unlockFileMenuContent:
+      m_Text: Release Lock
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+    forceUnlockFileMenuContent:
+      m_Text: Release Lock (forced)
+      m_Image: {fileID: 0}
+      m_Tooltip: 
+  hasRemote: 1
+  currentRemoteName: origin
+  currentBranch: master
+  currentRemoteUrl: https://github.com/Zenemis/spacereset-front.git
+  statusAhead: 0
+  statusBehind: 0
+  hasItemsToCommit: 1
+  isTrackingRemoteBranch: 1
+  currentBranchContent:
+    m_Text: master
+    m_Image: {fileID: 0}
+    m_Tooltip: Active branch
+  currentRemoteUrlContent:
+    m_Text: https://github.com/Zenemis/spacereset-front.git
+    m_Image: {fileID: 0}
+    m_Tooltip: Url of the origin remote
+  lastCurrentBranchAndRemoteChangedEvent:
+    updatedTimeString: 2023-09-25T14:53:51.501+02:00
+    cacheType: 1
+  lastTrackingStatusChangedEvent:
+    updatedTimeString: 0001-01-01T00:00:00.000+00:00
+    cacheType: 5
+  lastStatusEntriesChangedEvent:
+    updatedTimeString: 2023-09-25T15:05:07.746+02:00
+    cacheType: 6
+  pullButtonContent:
+    m_Text: Pull
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  pushButtonContent:
+    m_Text: Push
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  refreshButtonContent:
+    m_Text: Refresh
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  fetchButtonContent:
+    m_Text: Fetch
+    m_Image: {fileID: 0}
+    m_Tooltip: 
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
+  appManagerProgressValue: 0
+  appManagerProgressMessage: 
+  primaryConnectionUsername: 
+--- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -298,9 +3086,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 416
-    width: 977
-    height: 214.99997
+    y: 361.66666
+    width: 977.6667
+    height: 215.66672
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -322,7 +3110,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/FrontAssets
+    - Assets
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -330,16 +3118,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/FrontAssets
+  - Assets
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\Front Appli
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 97.00003}
-    m_SelectedIDs: b6630000
-    m_LastClickedID: 25526
-    m_ExpandedIDs: 000000009c5c000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 385d0000
+    m_LastClickedID: 23864
+    m_ExpandedIDs: 00000000385d000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -367,7 +3155,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000009c5c000000ca9a3b
+    m_ExpandedIDs: 00000000385d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -392,9 +3180,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 3ab2ffff
-    m_LastClickedInstanceID: -19910
-    m_HadKeyboardFocusLastEvent: 1
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -411,7 +3199,7 @@ MonoBehaviour:
       m_IsRenaming: 0
       m_OriginalEventType: 11
       m_IsRenamingFilename: 1
-      m_ClientGUIView: {fileID: 5}
+      m_ClientGUIView: {fileID: 0}
     m_CreateAssetUtility:
       m_EndAction: {fileID: 0}
       m_InstanceID: 0
@@ -423,7 +3211,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 207
---- !u!114 &13
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -444,10 +3232,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 978
-    y: 72.66667
-    width: 301
-    height: 558.3333
+    x: 979.6667
+    y: 19
+    width: 300.3333
+    height: 558.3334
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -471,7 +3259,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &14
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -493,9 +3281,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 72.66667
+    y: 19
     width: 241
-    height: 322.33334
+    height: 321.66666
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -509,9 +3297,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: e2d6ffff
-      m_LastClickedID: -10526
-      m_ExpandedIDs: 40b2ffffe2d6ffffb0d8ffff2efbffff42fbffff
+      m_SelectedIDs: 845c0000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 2efbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -535,7 +3323,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &15
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -556,10 +3344,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 242
-    y: 72.66667
-    width: 734
-    height: 322.33334
+    x: 98.66667
+    y: 168.66667
+    width: 734.6667
+    height: 321.66666
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -574,8 +3362,8 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -164, y: -26.666656}
+      snapOffset: {x: -164, y: -26.666656}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 3
       id: Tool Settings
       index: 0
@@ -866,9 +3654,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 572.3655, y: 1188.1967, z: 796.0984}
+    m_Target: {x: 1096.1234, y: 244.8247, z: 197.69666}
     speed: 2
-    m_Value: {x: 572.3655, y: 1188.1967, z: 796.0984}
+    m_Value: {x: 873.16565, y: 73.15044, z: 188.95978}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -914,17 +3702,17 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.00030934604, y: 0.005097519, z: -0.0000005516298, w: -1.0000021}
+    m_Target: {x: -0.0497807, y: -0.018878814, z: 0.0009372023, w: -0.9985973}
     speed: 2
-    m_Value: {x: -0.00030934135, y: 0.005097442, z: -0.00000055162144, w: -0.999987}
+    m_Value: {x: -0.0497807, y: -0.018878814, z: 0.0009372023, w: -0.99859726}
   m_Size:
-    m_Target: 2130.6794
+    m_Target: 1212.9253
     speed: 2
-    m_Value: 2130.6794
+    m_Value: 580.6147
   m_Ortho:
-    m_Target: 1
+    m_Target: 0
     speed: 2
-    m_Value: 1
+    m_Value: 0
   m_CameraSettings:
     m_Speed: 1
     m_SpeedNormalized: 0.5
@@ -945,7 +3733,7 @@ MonoBehaviour:
   m_SceneVisActive: 1
   m_LastLockedObject: {fileID: 0}
   m_ViewIsLockedToObject: 0
---- !u!114 &16
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1044,7 +3832,7 @@ MonoBehaviour:
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &17
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1065,10 +3853,10 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 0
-    y: 416
-    width: 977
-    height: 214.99997
+    x: 2249
+    y: 726.5
+    width: 920
+    height: 250
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
