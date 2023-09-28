@@ -22,7 +22,7 @@ public class SwipeManager : MonoBehaviour
     private Vector2 endTouchPosition;
     private bool isSwiping = false;
     public float minSwipeDistance = 50f;
-    public float screenWidth = 1080f;
+    public float screenWidth;
 
     private float generalOffset = 0f;
     private bool canInteract = true;
@@ -45,6 +45,7 @@ public class SwipeManager : MonoBehaviour
             if (Input.touchCount > 0)
             {
                 float swipe = DetectSwipe();
+                Debug.Log(swipe);
                 SwipePanels(swipe);
             }
         } else {
@@ -63,7 +64,7 @@ public class SwipeManager : MonoBehaviour
     private void SetStateToProfile()
     {
         state = State.Profile;
-        generalOffset = -1080f;
+        generalOffset = -screenWidth;
         canInteract = false;
         lerpTime = 0f;
     }
