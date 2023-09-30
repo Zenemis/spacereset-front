@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Text;
@@ -11,7 +12,15 @@ namespace ServerUtils {
     {
         private static string serverUrl = "http://votre-serveur-ip-ou-domaine:3000/";
 
-        static string Sha256(string randomString)
+        public static string NewSalt(int maxLength)
+        {
+            var random = new System.Security.Cryptography.RNGCryptoServiceProvider();
+            byte[] salt = new byte[maxLength];
+            random.GetNonZeroBytes(salt);
+            return Convert.ToBase64String(salt);
+        }
+
+        public static string Sha256(string randomString)
         {
             var crypt = new System.Security.Cryptography.SHA256Managed();
             var hash = new System.Text.StringBuilder();
@@ -32,7 +41,7 @@ namespace ServerUtils {
             return form;
         }
 
-        static public async Task<string> Upload(WWWForm form, string uri)
+        static public async Task<string> Upload(string uri, WWWForm form)
         {
             using (UnityWebRequest www = UnityWebRequest.Post(serverUrl + uri, form))
             {
