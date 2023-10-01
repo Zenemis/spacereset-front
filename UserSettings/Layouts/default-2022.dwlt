@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 85
+  controlID: 131
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 49
+  controlID: 40
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -189,8 +189,8 @@ MonoBehaviour:
     y: 0
     width: 310.66666
     height: 342.66666
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -215,8 +215,8 @@ MonoBehaviour:
     y: 0
     width: 668
     height: 342.66666
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -242,8 +242,8 @@ MonoBehaviour:
     y: 342.66666
     width: 978.6667
     height: 236.66666
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 101, y: 121}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 12}
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 301.3333
     height: 579.3333
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -340,7 +340,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 44.333344}
     m_SelectedIDs: bc5e0000
     m_LastClickedID: 24252
-    m_ExpandedIDs: 00000000fa5e0000
+    m_ExpandedIDs: 000000000c5f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -368,7 +368,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa5e0000
+    m_ExpandedIDs: 000000000c5f0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -461,10 +461,10 @@ MonoBehaviour:
     m_OverlaysVisible: 1
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 211.33334}
+      scrollPos: {x: 0, y: 19.333344}
       m_SelectedIDs: 1c5d0000
       m_LastClickedID: 23836
-      m_ExpandedIDs: 2efbffffda5c0000e05c00000c5d00001c5d0000aa5d0000fa5d00000a5e0000
+      m_ExpandedIDs: 12deffff96e2ffff2efbffffda5c00001c5d00008e5d0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -819,9 +819,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 97.61356, y: 130.39491, z: 39.880646}
+    m_Target: {x: 129.42485, y: 70.98072, z: -0.6397133}
     speed: 2
-    m_Value: {x: 97.61356, y: 130.39491, z: 39.880646}
+    m_Value: {x: 129.42485, y: 70.98072, z: -0.6397133}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -867,13 +867,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.022807783, y: 0.0035962057, z: -0.00008560183, w: -0.99976104}
+    m_Target: {x: -0.018308157, y: -0.008401661, z: 0.00015028664, w: -0.9998249}
     speed: 2
-    m_Value: {x: -0.022807151, y: 0.0035961063, z: -0.000085599466, w: -0.9997334}
+    m_Value: {x: -0.018307649, y: -0.008401427, z: 0.00015028246, w: -0.9997971}
   m_Size:
-    m_Target: 114.441124
+    m_Target: 79.16222
     speed: 2
-    m_Value: 114.441124
+    m_Value: 75.75332
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1074,7 +1074,7 @@ MonoBehaviour:
     m_ControlHash: -371814159
     m_PrefName: Preview_InspectorPreview
   m_LastInspectedObjectInstanceID: -1
-  m_LastVerticalScrollValue: 247.33337
+  m_LastVerticalScrollValue: 0
   m_GlobalObjectId: 
   m_InspectorMode: 0
   m_LockTracker:
@@ -1114,10 +1114,10 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: -1
+  progressMessageClearTime: 185.8041801
   notificationClearTime: -1
   timeSinceLastRotation: -1
-  currentBranchAndRemoteHasUpdate: 0
+  currentBranchAndRemoteHasUpdate: 1
   currentTrackingStatusHasUpdate: 1
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
@@ -1134,8 +1134,19 @@ MonoBehaviour:
     treeLocals:
       IsRemote: 0
       folders:
-        keys: []
-        values: []
+        keys:
+        - Local branches
+        values:
+        - path: Local branches
+          label: Local branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -1144,7 +1155,27 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes: []
+      nodes:
+      - path: Local branches
+        label: Local branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: master
+        label: master
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 1
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -1159,8 +1190,30 @@ MonoBehaviour:
     treeRemotes:
       IsRemote: 1
       folders:
-        keys: []
-        values: []
+        keys:
+        - Remote branches
+        - origin
+        values:
+        - path: Remote branches
+          label: Remote branches
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+        - path: origin
+          label: origin
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
       checkedFileNodes:
         keys: []
         values: []
@@ -1169,7 +1222,37 @@ MonoBehaviour:
       displayRootNode: 1
       isSelectable: 1
       isCheckable: 0
-      nodes: []
+      nodes:
+      - path: Remote branches
+        label: Remote branches
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin
+        label: origin
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+      - path: origin/master
+        label: master
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
       selectedNode:
         path: 
         label: 
@@ -1184,27 +1267,31 @@ MonoBehaviour:
     mode: 0
     newBranchName: 
     scroll: {x: 0, y: 0}
-    disableDelete: 0
-    disableCreate: 0
+    disableDelete: 1
+    disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-09-30T20:15:05.037+02:00
+      cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-09-30T20:14:36.161+02:00
+      cacheType: 1
     currentBranch:
-      name: 
-      tracking: 
+      name: master
+      tracking: origin/master
     currentRemote:
-      name: 
-      url: 
+      name: origin
+      url: https://github.com/Zenemis/spacereset-front.git
       login: 
       user: 
       host: 
       function: 0
       token: 
-    localBranches: []
-    remoteBranches: []
+    localBranches:
+    - name: master
+      tracking: origin/master
+    remoteBranches:
+    - name: origin/master
+      tracking: '[None]'
   changesView:
     currentBranchHasUpdate: 1
     currentStatusEntriesHasUpdate: 1
@@ -1215,241 +1302,13 @@ MonoBehaviour:
     treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
-        keys:
-        - 00000000000000001000000000000000
-        - 6f41e7b3b2212eb44b0c21c690bcc7a6
-        - 94c547e3d25e65147b3a9a1bc8e30521
-        - 29f005aec8f971049b4d1ab8bd1c8fb4
-        - f50141203b342074aa1cfab52090da65
-        - f95df483d3ffdab41bd8b9206943eabd
-        - c850ee8c3b14cc8459e7e186857cf567
-        - 65a00a47c3b12d64ba54e30deacf3b44
-        values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\FrontAssets
-          label: FrontAssets
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\FrontAssets\Scripts
-          label: Scripts
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\FrontAssets\Scripts\MyAccountManager.cs
-          label: MyAccountManager.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\FrontAssets\Scripts\MyAccountManager.cs
-            fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\MyAccountManager.cs
-            projectPath: Assets\FrontAssets\Scripts\MyAccountManager.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\FrontAssets\Scripts\ServerUtils.cs
-          label: ServerUtils.cs
-          level: 3
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\FrontAssets\Scripts\ServerUtils.cs
-            fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\ServerUtils.cs
-            projectPath: Assets\FrontAssets\Scripts\ServerUtils.cs
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes\SampleScene.unity
-          label: SampleScene.unity
-          level: 2
-          isFolder: 0
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\Scenes\SampleScene.unity
-            fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
-            projectPath: Assets\Scenes\SampleScene.unity
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 3
-        - path: Assets\UnityDefaultRuntimeTheme.tss
-          label: UnityDefaultRuntimeTheme.tss
-          level: 1
-          isFolder: 0
-          isContainer: 1
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: Assets\UnityDefaultRuntimeTheme.tss
-            fullPath: D:\Front Appli\Assets\UnityDefaultRuntimeTheme.tss
-            projectPath: Assets\UnityDefaultRuntimeTheme.tss
-            originalPath: 
-            indexStatus: 1
-            workTreeStatus: 1
+        keys: []
+        values: []
       folders:
         keys:
-        - Assets
-        - Assets\FrontAssets
-        - Assets\FrontAssets\Scripts
-        - Assets\Scenes
         - UserSettings
         - UserSettings\Layouts
         values:
-        - path: Assets
-          label: Assets
-          level: 0
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\FrontAssets
-          label: FrontAssets
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\FrontAssets\Scripts
-          label: Scripts
-          level: 2
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
-        - path: Assets\Scenes
-          label: Scenes
-          level: 1
-          isFolder: 1
-          isContainer: 0
-          isCollapsed: 0
-          isHidden: 0
-          isActive: 0
-          treeIsCheckable: 1
-          checkState: 0
-          isLocked: 0
-          gitStatusEntry:
-            path: 
-            fullPath: 
-            projectPath: 
-            originalPath: 
-            indexStatus: 0
-            workTreeStatus: 0
         - path: UserSettings
           label: UserSettings
           level: 0
@@ -1514,168 +1373,6 @@ MonoBehaviour:
           originalPath: 
           indexStatus: 0
           workTreeStatus: 0
-      - path: Assets
-        label: Assets
-        level: 0
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\FrontAssets
-        label: FrontAssets
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\FrontAssets\Scripts
-        label: Scripts
-        level: 2
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\FrontAssets\Scripts\MyAccountManager.cs
-        label: MyAccountManager.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\FrontAssets\Scripts\MyAccountManager.cs
-          fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\MyAccountManager.cs
-          projectPath: Assets\FrontAssets\Scripts\MyAccountManager.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\FrontAssets\Scripts\ServerUtils.cs
-        label: ServerUtils.cs
-        level: 3
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\FrontAssets\Scripts\ServerUtils.cs
-          fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\ServerUtils.cs
-          projectPath: Assets\FrontAssets\Scripts\ServerUtils.cs
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\Scenes
-        label: Scenes
-        level: 1
-        isFolder: 1
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: 
-          fullPath: 
-          projectPath: 
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 0
-      - path: Assets\Scenes\SampleScene.unity
-        label: SampleScene.unity
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\Scenes\SampleScene.unity
-          fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
-          projectPath: Assets\Scenes\SampleScene.unity
-          originalPath: 
-          indexStatus: 0
-          workTreeStatus: 3
-      - path: Assets\UnityDefaultRuntimeTheme.tss
-        label: UnityDefaultRuntimeTheme.tss
-        level: 1
-        isFolder: 0
-        isContainer: 1
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\UnityDefaultRuntimeTheme.tss
-          fullPath: D:\Front Appli\Assets\UnityDefaultRuntimeTheme.tss
-          projectPath: Assets\UnityDefaultRuntimeTheme.tss
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
-      - path: Assets\UnityDefaultRuntimeTheme.tss.meta
-        label: UnityDefaultRuntimeTheme.tss.meta
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 1
-        checkState: 0
-        isLocked: 0
-        gitStatusEntry:
-          path: Assets\UnityDefaultRuntimeTheme.tss.meta
-          fullPath: D:\Front Appli\Assets\UnityDefaultRuntimeTheme.tss.meta
-          projectPath: Assets\UnityDefaultRuntimeTheme.tss.meta
-          originalPath: 
-          indexStatus: 1
-          workTreeStatus: 1
       - path: UserSettings
         label: UserSettings
         level: 0
@@ -1750,56 +1447,590 @@ MonoBehaviour:
           indexStatus: 0
           workTreeStatus: 0
     gitStatusEntries:
-    - path: Assets\FrontAssets\Scripts\MyAccountManager.cs
-      fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\MyAccountManager.cs
-      projectPath: Assets\FrontAssets\Scripts\MyAccountManager.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\FrontAssets\Scripts\ServerUtils.cs
-      fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\ServerUtils.cs
-      projectPath: Assets\FrontAssets\Scripts\ServerUtils.cs
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\Scenes\SampleScene.unity
-      fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
-      projectPath: Assets\Scenes\SampleScene.unity
-      originalPath: 
-      indexStatus: 0
-      workTreeStatus: 3
-    - path: Assets\UnityDefaultRuntimeTheme.tss
-      fullPath: D:\Front Appli\Assets\UnityDefaultRuntimeTheme.tss
-      projectPath: Assets\UnityDefaultRuntimeTheme.tss
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
-    - path: Assets\UnityDefaultRuntimeTheme.tss.meta
-      fullPath: D:\Front Appli\Assets\UnityDefaultRuntimeTheme.tss.meta
-      projectPath: Assets\UnityDefaultRuntimeTheme.tss.meta
-      originalPath: 
-      indexStatus: 1
-      workTreeStatus: 1
     - path: UserSettings\Layouts\default-2022.dwlt
       fullPath: D:\Front Appli\UserSettings\Layouts\default-2022.dwlt
       projectPath: UserSettings\Layouts\default-2022.dwlt
       originalPath: 
       indexStatus: 0
       workTreeStatus: 3
-    changedFilesText: 6 changed files
+    changedFilesText: 1 changed file
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 2023-09-30T19:40:37.479+02:00
+      updatedTimeString: 2023-10-01T07:06:27.465+02:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 2023-09-30T20:12:30.784+02:00
+      updatedTimeString: 2023-10-01T07:30:43.672+02:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 2023-09-30T20:12:14.225+02:00
+      updatedTimeString: 2023-10-01T07:22:32.175+02:00
       cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
     logEntries:
+    - commitID: b95901b418535e8d38de1e35a9b976cd2909b90b
+      mergeA: 
+      mergeB: 
+      authorName: Simon DUCAMP
+      authorEmail: ducampsimon@outlook.fr
+      commitEmail: ducampsimon@outlook.fr
+      commitName: Simon DUCAMP
+      summary: 'draft: server call to modify account info'
+      description: 
+      timeString: 2023-09-28T13:59:57.000+02:00
+      commitTimeString: 2023-09-28T13:59:57.000+02:00
+      changes:
+      - path: Assets\FrontAssets\Scripts.meta
+        fullPath: D:\Front Appli\Assets\FrontAssets\Scripts.meta
+        projectPath: Assets\FrontAssets\Scripts.meta
+        originalPath: Assets\Scripts.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\FrontAssets\Scripts\MyAccountManager.cs
+        fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\MyAccountManager.cs
+        projectPath: Assets\FrontAssets\Scripts\MyAccountManager.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\FrontAssets\Scripts\MyAccountManager.cs.meta
+        fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\MyAccountManager.cs.meta
+        projectPath: Assets\FrontAssets\Scripts\MyAccountManager.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\FrontAssets\Scripts\ServerUtils.cs
+        fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\ServerUtils.cs
+        projectPath: Assets\FrontAssets\Scripts\ServerUtils.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\FrontAssets\Scripts\ServerUtils.cs.meta
+        fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\ServerUtils.cs.meta
+        projectPath: Assets\FrontAssets\Scripts\ServerUtils.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\FrontAssets\Scripts\SwipeManager.cs
+        fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\SwipeManager.cs
+        projectPath: Assets\FrontAssets\Scripts\SwipeManager.cs
+        originalPath: Assets\Scripts\SwipeManager.cs
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\FrontAssets\Scripts\SwipeManager.cs.meta
+        fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\SwipeManager.cs.meta
+        projectPath: Assets\FrontAssets\Scripts\SwipeManager.cs.meta
+        originalPath: Assets\Scripts\SwipeManager.cs.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\FrontAssets\modifyButton.png
+        fullPath: D:\Front Appli\Assets\FrontAssets\modifyButton.png
+        projectPath: Assets\FrontAssets\modifyButton.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\FrontAssets\modifyButton.png.meta
+        fullPath: D:\Front Appli\Assets\FrontAssets\modifyButton.png.meta
+        projectPath: Assets\FrontAssets\modifyButton.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins.meta
+        fullPath: D:\Front Appli\Assets\Plugins.meta
+        projectPath: Assets\Plugins.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe.html
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe.html
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe.html
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe.html.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe.html.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe.html.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\22d474190b1889d3373fa4f9334e979c
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\22d474190b1889d3373fa4f9334e979c
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\22d474190b1889d3373fa4f9334e979c
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\22d474190b1889d3373fa4f9334e979c.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\22d474190b1889d3373fa4f9334e979c.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\22d474190b1889d3373fa4f9334e979c.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\a276129472f6ad4719e01704016e6f73
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\a276129472f6ad4719e01704016e6f73
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\a276129472f6ad4719e01704016e6f73
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\a276129472f6ad4719e01704016e6f73.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\a276129472f6ad4719e01704016e6f73.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\a276129472f6ad4719e01704016e6f73.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\cmdline_frame.html
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\cmdline_frame.html
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\cmdline_frame.html
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\cmdline_frame.html.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\cmdline_frame.html.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\cmdline_frame.html.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\comment-reply.min.js.download
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\comment-reply.min.js.download
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\comment-reply.min.js.download
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\comment-reply.min.js.download.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\comment-reply.min.js.download.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\comment-reply.min.js.download.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\default.min.css
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\default.min.css
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\default.min.css
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\default.min.css.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\default.min.css.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\default.min.css.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min(1).css
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min(1).css
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min(1).css
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min(1).css.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min(1).css.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min(1).css.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min.css
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min.css
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min.css
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min.css.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min.css.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min.css.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery-migrate.min.js.download
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery-migrate.min.js.download
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery-migrate.min.js.download
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery-migrate.min.js.download.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery-migrate.min.js.download.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery-migrate.min.js.download.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery.js.download
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery.js.download
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery.js.download
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery.js.download.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery.js.download.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery.js.download.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shBrushCSharp.js.download
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shBrushCSharp.js.download
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shBrushCSharp.js.download
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shBrushCSharp.js.download.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shBrushCSharp.js.download.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shBrushCSharp.js.download.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.css
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.css
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.css
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.css.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.css.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.css.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.js.download
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.js.download
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.js.download
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.js.download.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.js.download.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.js.download.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shThemeDefault.css
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shThemeDefault.css
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shThemeDefault.css
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shThemeDefault.css.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shThemeDefault.css.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shThemeDefault.css.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.css
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.css
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.css
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.css.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.css.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.css.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.js.download
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.js.download
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.js.download
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.js.download.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.js.download.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.js.download.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-embed.min.js.download
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-embed.min.js.download
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-embed.min.js.download
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-embed.min.js.download.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-embed.min.js.download.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-embed.min.js.download.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-emoji-release.min.js.download
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-emoji-release.min.js.download
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-emoji-release.min.js.download
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-emoji-release.min.js.download.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-emoji-release.min.js.download.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-emoji-release.min.js.download.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-slimstat.min.js.download
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-slimstat.min.js.download
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-slimstat.min.js.download
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-slimstat.min.js.download.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-slimstat.min.js.download.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-slimstat.min.js.download.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\AwaitExtensions.cs
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\AwaitExtensions.cs
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\AwaitExtensions.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\AwaitExtensions.cs.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\AwaitExtensions.cs.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\AwaitExtensions.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\Awaiters.cs
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Awaiters.cs
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Awaiters.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\Awaiters.cs.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Awaiters.cs.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Awaiters.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\Internal.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Internal.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Internal.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\TaskExtensions.cs
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\TaskExtensions.cs
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\TaskExtensions.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\TaskExtensions.cs.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\TaskExtensions.cs.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\TaskExtensions.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\WaitForUpdate.cs
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\WaitForUpdate.cs
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\WaitForUpdate.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Source\WaitForUpdate.cs.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\WaitForUpdate.cs.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Source\WaitForUpdate.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Tests.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Tests.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncTests.unity
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\AsyncTests.unity
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncTests.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncTests.unity.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\AsyncTests.unity.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncTests.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncUtilTests.cs
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\AsyncUtilTests.cs
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncUtilTests.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncUtilTests.cs.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\AsyncUtilTests.cs.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncUtilTests.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Tests\Util.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\Util.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\Util.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\UniRx.zip
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\UniRx.zip
+        projectPath: Assets\Plugins\AsyncAwaitUtil\UniRx.zip
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Plugins\AsyncAwaitUtil\UniRx.zip.meta
+        fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\UniRx.zip.meta
+        projectPath: Assets\Plugins\AsyncAwaitUtil\UniRx.zip.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        fullPath: D:\Front Appli\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: D:\Front Appli\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: b077715f274bb6cfd66c00a8cec191499e65fe35
+      mergeA: 
+      mergeB: 
+      authorName: Simon DUCAMP
+      authorEmail: ducampsimon@outlook.fr
+      commitEmail: ducampsimon@outlook.fr
+      commitName: Simon DUCAMP
+      summary: 'fix: tested responsive on Redmi 11 (Android) + Revisited UI architecture'
+      description: 
+      timeString: 2023-09-25T15:28:06.000+02:00
+      commitTimeString: 2023-09-25T15:28:06.000+02:00
+      changes:
+      - path: Assets\Prefab_ConnectWallet.prefab
+        fullPath: D:\Front Appli\Assets\Prefab_ConnectWallet.prefab
+        projectPath: Assets\Prefab_ConnectWallet.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefab_ConnectWallet.prefab.meta
+        fullPath: D:\Front Appli\Assets\Prefab_ConnectWallet.prefab.meta
+        projectPath: Assets\Prefab_ConnectWallet.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scenes\SampleScene.unity
+        fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+        projectPath: Assets\Scenes\SampleScene.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scripts\SwipeManager.cs
+        fullPath: D:\Front Appli\Assets\Scripts\SwipeManager.cs
+        projectPath: Assets\Scripts\SwipeManager.cs
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\TimelineSettings.asset
+        fullPath: D:\Front Appli\ProjectSettings\TimelineSettings.asset
+        projectPath: ProjectSettings\TimelineSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: D:\Front Appli\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2022.dwlt
+        fullPath: D:\Front Appli\UserSettings\Layouts\default-2022.dwlt
+        projectPath: UserSettings\Layouts\default-2022.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: 2b28183ed8bc9302e18f8c9c7db8ec102d6f9289
       mergeA: 
       mergeB: 
@@ -2764,14 +2995,578 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-09-30T20:15:05.214+02:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2023-09-30T20:14:08.263+02:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: b95901b418535e8d38de1e35a9b976cd2909b90b
+        mergeA: 
+        mergeB: 
+        authorName: Simon DUCAMP
+        authorEmail: ducampsimon@outlook.fr
+        commitEmail: ducampsimon@outlook.fr
+        commitName: Simon DUCAMP
+        summary: 'draft: server call to modify account info'
+        description: 
+        timeString: 2023-09-28T13:59:57.000+02:00
+        commitTimeString: 2023-09-28T13:59:57.000+02:00
+        changes:
+        - path: Assets\FrontAssets\Scripts.meta
+          fullPath: D:\Front Appli\Assets\FrontAssets\Scripts.meta
+          projectPath: Assets\FrontAssets\Scripts.meta
+          originalPath: Assets\Scripts.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\FrontAssets\Scripts\MyAccountManager.cs
+          fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\MyAccountManager.cs
+          projectPath: Assets\FrontAssets\Scripts\MyAccountManager.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\FrontAssets\Scripts\MyAccountManager.cs.meta
+          fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\MyAccountManager.cs.meta
+          projectPath: Assets\FrontAssets\Scripts\MyAccountManager.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\FrontAssets\Scripts\ServerUtils.cs
+          fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\ServerUtils.cs
+          projectPath: Assets\FrontAssets\Scripts\ServerUtils.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\FrontAssets\Scripts\ServerUtils.cs.meta
+          fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\ServerUtils.cs.meta
+          projectPath: Assets\FrontAssets\Scripts\ServerUtils.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\FrontAssets\Scripts\SwipeManager.cs
+          fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\SwipeManager.cs
+          projectPath: Assets\FrontAssets\Scripts\SwipeManager.cs
+          originalPath: Assets\Scripts\SwipeManager.cs
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\FrontAssets\Scripts\SwipeManager.cs.meta
+          fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\SwipeManager.cs.meta
+          projectPath: Assets\FrontAssets\Scripts\SwipeManager.cs.meta
+          originalPath: Assets\Scripts\SwipeManager.cs.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\FrontAssets\modifyButton.png
+          fullPath: D:\Front Appli\Assets\FrontAssets\modifyButton.png
+          projectPath: Assets\FrontAssets\modifyButton.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\FrontAssets\modifyButton.png.meta
+          fullPath: D:\Front Appli\Assets\FrontAssets\modifyButton.png.meta
+          projectPath: Assets\FrontAssets\modifyButton.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins.meta
+          fullPath: D:\Front Appli\Assets\Plugins.meta
+          projectPath: Assets\Plugins.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe.html
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe.html
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe.html
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe.html.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe.html.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe.html.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\22d474190b1889d3373fa4f9334e979c
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\22d474190b1889d3373fa4f9334e979c
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\22d474190b1889d3373fa4f9334e979c
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\22d474190b1889d3373fa4f9334e979c.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\22d474190b1889d3373fa4f9334e979c.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\22d474190b1889d3373fa4f9334e979c.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\a276129472f6ad4719e01704016e6f73
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\a276129472f6ad4719e01704016e6f73
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\a276129472f6ad4719e01704016e6f73
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\a276129472f6ad4719e01704016e6f73.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\a276129472f6ad4719e01704016e6f73.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\a276129472f6ad4719e01704016e6f73.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\cmdline_frame.html
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\cmdline_frame.html
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\cmdline_frame.html
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\cmdline_frame.html.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\cmdline_frame.html.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\cmdline_frame.html.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\comment-reply.min.js.download
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\comment-reply.min.js.download
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\comment-reply.min.js.download
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\comment-reply.min.js.download.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\comment-reply.min.js.download.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\comment-reply.min.js.download.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\default.min.css
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\default.min.css
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\default.min.css
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\default.min.css.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\default.min.css.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\default.min.css.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min(1).css
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min(1).css
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min(1).css
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min(1).css.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min(1).css.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min(1).css.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min.css
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min.css
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min.css
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min.css.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min.css.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\font-awesome.min.css.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery-migrate.min.js.download
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery-migrate.min.js.download
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery-migrate.min.js.download
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery-migrate.min.js.download.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery-migrate.min.js.download.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery-migrate.min.js.download.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery.js.download
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery.js.download
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery.js.download
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery.js.download.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery.js.download.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\jquery.js.download.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shBrushCSharp.js.download
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shBrushCSharp.js.download
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shBrushCSharp.js.download
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shBrushCSharp.js.download.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shBrushCSharp.js.download.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shBrushCSharp.js.download.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.css
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.css
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.css
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.css.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.css.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.css.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.js.download
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.js.download
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.js.download
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.js.download.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.js.download.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shCore.js.download.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shThemeDefault.css
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shThemeDefault.css
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shThemeDefault.css
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shThemeDefault.css.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shThemeDefault.css.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\shThemeDefault.css.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.css
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.css
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.css
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.css.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.css.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.css.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.js.download
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.js.download
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.js.download
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.js.download.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.js.download.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\style.min.js.download.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-embed.min.js.download
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-embed.min.js.download
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-embed.min.js.download
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-embed.min.js.download.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-embed.min.js.download.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-embed.min.js.download.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-emoji-release.min.js.download
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-emoji-release.min.js.download
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-emoji-release.min.js.download
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-emoji-release.min.js.download.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-emoji-release.min.js.download.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-emoji-release.min.js.download.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-slimstat.min.js.download
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-slimstat.min.js.download
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-slimstat.min.js.download
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-slimstat.min.js.download.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-slimstat.min.js.download.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Documentation\ReadMe_files\wp-slimstat.min.js.download.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\AwaitExtensions.cs
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\AwaitExtensions.cs
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\AwaitExtensions.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\AwaitExtensions.cs.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\AwaitExtensions.cs.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\AwaitExtensions.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\Awaiters.cs
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Awaiters.cs
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Awaiters.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\Awaiters.cs.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Awaiters.cs.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Awaiters.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\IEnumeratorAwaitExtensions.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\Internal.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Internal.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Internal.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Internal\AsyncCoroutineRunner.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\Internal\SyncContextUtil.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\TaskExtensions.cs
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\TaskExtensions.cs
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\TaskExtensions.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\TaskExtensions.cs.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\TaskExtensions.cs.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\TaskExtensions.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\WaitForBackgroundThread.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\WaitForUpdate.cs
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\WaitForUpdate.cs
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\WaitForUpdate.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Source\WaitForUpdate.cs.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Source\WaitForUpdate.cs.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Source\WaitForUpdate.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Tests.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Tests.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncTests.unity
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\AsyncTests.unity
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncTests.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncTests.unity.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\AsyncTests.unity.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncTests.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncUtilTests.cs
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\AsyncUtilTests.cs
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncUtilTests.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncUtilTests.cs.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\AsyncUtilTests.cs.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\AsyncUtilTests.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Tests\Util.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\Util.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\Util.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\Tests\Util\TestButtonHandler.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\UniRx.zip
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\UniRx.zip
+          projectPath: Assets\Plugins\AsyncAwaitUtil\UniRx.zip
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Plugins\AsyncAwaitUtil\UniRx.zip.meta
+          fullPath: D:\Front Appli\Assets\Plugins\AsyncAwaitUtil\UniRx.zip.meta
+          projectPath: Assets\Plugins\AsyncAwaitUtil\UniRx.zip.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          fullPath: D:\Front Appli\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: D:\Front Appli\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: b077715f274bb6cfd66c00a8cec191499e65fe35
+        mergeA: 
+        mergeB: 
+        authorName: Simon DUCAMP
+        authorEmail: ducampsimon@outlook.fr
+        commitEmail: ducampsimon@outlook.fr
+        commitName: Simon DUCAMP
+        summary: 'fix: tested responsive on Redmi 11 (Android) + Revisited UI architecture'
+        description: 
+        timeString: 2023-09-25T15:28:06.000+02:00
+        commitTimeString: 2023-09-25T15:28:06.000+02:00
+        changes:
+        - path: Assets\Prefab_ConnectWallet.prefab
+          fullPath: D:\Front Appli\Assets\Prefab_ConnectWallet.prefab
+          projectPath: Assets\Prefab_ConnectWallet.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefab_ConnectWallet.prefab.meta
+          fullPath: D:\Front Appli\Assets\Prefab_ConnectWallet.prefab.meta
+          projectPath: Assets\Prefab_ConnectWallet.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scenes\SampleScene.unity
+          fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+          projectPath: Assets\Scenes\SampleScene.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scripts\SwipeManager.cs
+          fullPath: D:\Front Appli\Assets\Scripts\SwipeManager.cs
+          projectPath: Assets\Scripts\SwipeManager.cs
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\TimelineSettings.asset
+          fullPath: D:\Front Appli\ProjectSettings\TimelineSettings.asset
+          projectPath: ProjectSettings\TimelineSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: D:\Front Appli\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2022.dwlt
+          fullPath: D:\Front Appli\UserSettings\Layouts\default-2022.dwlt
+          projectPath: UserSettings\Layouts\default-2022.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: 2b28183ed8bc9302e18f8c9c7db8ec102d6f9289
         mergeA: 
         mergeB: 
@@ -3790,36 +4585,36 @@ MonoBehaviour:
     detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
-      gitPath: 
-      gitLfsPath: 
+      gitPath: C:\Users\ducam\AppData\Local\GitForUnity\git\cmd\git.exe
+      gitLfsPath: C:\Users\ducam\AppData\Local\GitForUnity\git\mingw64\libexec\git-core\git-lfs.exe
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
-    hasRemote: 0
+    hasRemote: 1
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
-    newRepositoryRemoteUrl: 
-    repositoryRemoteName: 
-    repositoryRemoteUrl: 
+      updatedTimeString: 2023-09-30T20:14:36.161+02:00
+      cacheType: 1
+    newRepositoryRemoteUrl: https://github.com/Zenemis/spacereset-front.git
+    repositoryRemoteName: origin
+    repositoryRemoteUrl: https://github.com/Zenemis/spacereset-front.git
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: 
-      gitEmail: 
-      newGitName: 
-      newGitEmail: 
+      gitName: Simon DUCAMP
+      gitEmail: ducampsimon@outlook.fr
+      newGitName: Simon DUCAMP
+      newGitEmail: ducampsimon@outlook.fr
       needsSaving: 0
       lastCheckUserChangedEvent:
-        updatedTimeString: 
-        cacheType: 0
-    webTimeout: 0
-    gitTimeout: 0
+        updatedTimeString: 2023-09-30T20:15:06.357+02:00
+        cacheType: 8
+    webTimeout: 100000
+    gitTimeout: 5000
   locksView:
-    currentRemoteHasUpdate: 0
+    currentRemoteHasUpdate: 1
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
-    keychainHasUpdate: 0
+    keychainHasUpdate: 1
     locksControl:
       scroll: {x: 0, y: 0}
       gitLockEntries: []
@@ -3838,18 +4633,54 @@ MonoBehaviour:
             email: 
           lockedAtString: 
         gitFileStatus: 0
-        lockedAt: 
+        lockedAt: 1 Jan 0001, 01:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-09-30T20:14:36.161+02:00
+      cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-09-30T20:14:10.213+02:00
+      cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2023-09-30T20:14:08.244+02:00
+      cacheType: 6
     lockedFiles: []
-    gitStatusEntries: []
+    gitStatusEntries:
+    - path: Assets\FrontAssets\Scripts\MyAccountManager.cs
+      fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\MyAccountManager.cs
+      projectPath: Assets\FrontAssets\Scripts\MyAccountManager.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\FrontAssets\Scripts\ServerUtils.cs
+      fullPath: D:\Front Appli\Assets\FrontAssets\Scripts\ServerUtils.cs
+      projectPath: Assets\FrontAssets\Scripts\ServerUtils.cs
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\Scenes\SampleScene.unity
+      fullPath: D:\Front Appli\Assets\Scenes\SampleScene.unity
+      projectPath: Assets\Scenes\SampleScene.unity
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
+    - path: Assets\UnityDefaultRuntimeTheme.tss
+      fullPath: D:\Front Appli\Assets\UnityDefaultRuntimeTheme.tss
+      projectPath: Assets\UnityDefaultRuntimeTheme.tss
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: Assets\UnityDefaultRuntimeTheme.tss.meta
+      fullPath: D:\Front Appli\Assets\UnityDefaultRuntimeTheme.tss.meta
+      projectPath: Assets\UnityDefaultRuntimeTheme.tss.meta
+      originalPath: 
+      indexStatus: 1
+      workTreeStatus: 1
+    - path: UserSettings\Layouts\default-2022.dwlt
+      fullPath: D:\Front Appli\UserSettings\Layouts\default-2022.dwlt
+      projectPath: UserSettings\Layouts\default-2022.dwlt
+      originalPath: 
+      indexStatus: 0
+      workTreeStatus: 3
     currentUsername: 
     unlockFileMenuContent:
       m_Text: Release Lock
@@ -3876,13 +4707,13 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Url of the origin remote
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2023-09-30T17:14:03.016+02:00
+    updatedTimeString: 2023-10-01T07:06:27.465+02:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2023-09-30T17:43:40.313+02:00
+    updatedTimeString: 2023-10-01T07:22:42.464+02:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2023-09-30T17:43:40.294+02:00
+    updatedTimeString: 2023-10-01T07:22:42.449+02:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -3900,7 +4731,7 @@ MonoBehaviour:
     m_Text: Fetch
     m_Image: {fileID: 0}
     m_Tooltip: 
-  repositoryProgressValue: 0
+  repositoryProgressValue: 0.96666664
   repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
