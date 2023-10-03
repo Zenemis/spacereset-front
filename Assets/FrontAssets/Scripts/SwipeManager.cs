@@ -39,13 +39,11 @@ public class SwipeManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Debug.Log(state);
         if (canInteract) 
         {
             if (Input.touchCount > 0)
             {
                 float swipe = DetectSwipe();
-                Debug.Log(swipe);
                 SwipePanels(swipe);
             }
         } else {
