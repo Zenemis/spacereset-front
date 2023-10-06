@@ -10,7 +10,7 @@ namespace ServerUtils {
 
     public static class SRServer
     {
-        private static string serverUrl = "http://votre-serveur-ip-ou-domaine:3000/";
+        private static string serverUrl = "192.168.1.16:3000/";
 
         public static string NewSalt(int maxLength)
         {
