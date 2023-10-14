@@ -21,8 +21,8 @@ public class SwipeManager : MonoBehaviour
     private Vector2 startTouchPosition;
     private Vector2 endTouchPosition;
     private bool isSwiping = false;
-    public float minSwipeDistance = 50f;
-    public float screenWidth;
+    private float minSwipeDistance;
+    private float touchThreshold;
 
     private float generalOffset = 0f;
     private bool canInteract = true;
@@ -31,9 +31,11 @@ public class SwipeManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        touchThreshold = Screen.width*0.1f;
+        minSwipeDistance = Screen.width/3.5f;
         rightRectTransform = swipeRightGroup.GetComponent<RectTransform>();
-        rightRectTransform.offsetMin = new Vector2(screenWidth, rightRectTransform.offsetMin.y);
-        rightRectTransform.offsetMax = new Vector2(screenWidth, rightRectTransform.offsetMax.y);
+        rightRectTransform.offsetMin = new Vector2(Screen.width, rightRectTransform.offsetMin.y);
+        rightRectTransform.offsetMax = new Vector2(Screen.width, rightRectTransform.offsetMax.y);
     }
 
     // Update is called once per frame
@@ -44,6 +46,9 @@ public class SwipeManager : MonoBehaviour
             if (Input.touchCount > 0)
             {
                 float swipe = DetectSwipe();
+                if (Mathf.Abs(swipe) < touchThreshold){
+                    swipe = 0;
+                }
                 SwipePanels(swipe);
             }
         } else {
@@ -62,7 +67,7 @@ public class SwipeManager : MonoBehaviour
     private void SetStateToProfile()
     {
         state = State.Profile;
-        generalOffset = -screenWidth;
+        generalOffset = -Screen.width;
         canInteract = false;
         lerpTime = 0f;
     }
@@ -74,8 +79,8 @@ public class SwipeManager : MonoBehaviour
 
     private void InterpolateToStatePosition(){
         lerpTime += 2f * Time.deltaTime;
-        float posForProfileMin = Mathf.Lerp(rightRectTransform.offsetMin.x, generalOffset + screenWidth, lerpTime);
-        float posForProfileMax = Mathf.Lerp(rightRectTransform.offsetMax.x, generalOffset + screenWidth, lerpTime);
+        float posForProfileMin = Mathf.Lerp(rightRectTransform.offsetMin.x, generalOffset + Screen.width, lerpTime);
+        float posForProfileMax = Mathf.Lerp(rightRectTransform.offsetMax.x, generalOffset + Screen.width, lerpTime);
         rightRectTransform.offsetMin = new Vector2(posForProfileMin, rightRectTransform.offsetMin.y);
         rightRectTransform.offsetMax = new Vector2(posForProfileMax, rightRectTransform.offsetMax.y);
         if (lerpTime >= 1f){
@@ -111,10 +116,24 @@ public class SwipeManager : MonoBehaviour
         } else if (swipe == Mathf.Epsilon) {
             ResetToSameState();
         } else {
-            float amount = screenWidth*2*swipe/Screen.width;
+            float amount;
+            switch (state) {
+                case State.Explore :
+                    amount = Mathf.Min(swipe, 0);
+                    break;
+                case State.Gyro :
+                    amount = swipe;
+                    break;
+                case State.Profile :
+                    amount = Mathf.Max(0, swipe);
+                    break;
+                default :
+                    amount = swipe;
+                    break;
+            }
             RectTransform rightRectTransform = swipeRightGroup.GetComponent<RectTransform>();
-            rightRectTransform.offsetMin = new Vector2(generalOffset + screenWidth + amount, rightRectTransform.offsetMin.y);
-            rightRectTransform.offsetMax = new Vector2(generalOffset + screenWidth + amount, rightRectTransform.offsetMax.y);
+            rightRectTransform.offsetMin = new Vector2(generalOffset + Screen.width + amount, rightRectTransform.offsetMin.y);
+            rightRectTransform.offsetMax = new Vector2(generalOffset + Screen.width + amount, rightRectTransform.offsetMax.y);
         }
 
     }

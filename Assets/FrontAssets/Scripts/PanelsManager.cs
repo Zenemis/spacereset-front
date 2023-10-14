@@ -41,9 +41,10 @@ public class PanelsManager : MonoBehaviour
         allPanels.Add(modifyIdentityPanel);
         allPanels.Add(modifyCredentialsPanel);
         
-        panelVisiblePosition = myProfilePanel.GetComponent<RectTransform>().anchoredPosition;
+        panelVisiblePosition = new Vector2(0,0);
         panelAwayPosition = new Vector2(panelVisiblePosition.x + Screen.width,
                                         panelVisiblePosition.y);
+        
         superpanelsBackgroundsColor = deleteAccountSuperPanel.GetComponent<Image>().color;
 
 
